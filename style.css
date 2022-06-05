@@ -1,0 +1,66 @@
+body{
+    background-image: url('cloudimg.jpg');
+    height: 10vh;
+   
+  
+    background-position: top center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+}
+.mainpage
+{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240,248,255,0.6);
+    padding:40px;
+    text-align:center;
+}
+.mainpage *
+{
+    margin-bottom: 10px;
+}
+.inputbox
+{
+    width:100%;
+background-color: cornsilk;
+border:none;
+color:black;
+font-size:1.2rem;
+height: 50px;
+border-radius: 50px;
+padding:0 10px;
+text-align: center;
+}
+.displaybox
+{
+    color:deeppink;
+    padding:20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: honeydew;
+    height: 50vh;
+}
+.city
+{
+    font-weight:bold;
+
+}
+.date
+{
+    color:black;
+}
+.weather
+{
+    padding:20px;
+}
+.temp
+{
+    font-size:50pt;
+    font-weight: 700;
+    margin:20px 0;
+    text-shadow:2px 4px rgba(0,0,0,.3);
+}
+.minmax, .wea{
+    font-size: 12pt;
+    font-weight: 600;
+}
